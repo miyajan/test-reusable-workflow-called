@@ -12,4 +12,4 @@ jobs:
     name: Example Job
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${{ inputs.username }}"
+      - run: echo "${{ inputs.text }}"
